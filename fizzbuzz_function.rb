@@ -18,5 +18,6 @@ def fizzbuzz()
 		newarray[y] = "buzz"
 	end
 	end
+	puts newarray
 	return newarray
 end
