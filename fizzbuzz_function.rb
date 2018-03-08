@@ -14,6 +14,8 @@ def fizzbuzz()
 		newarray[y] = "fizzbuzz"
 	elsif item % 3 == 0
 		newarray[y] = "fizz"
+	elsif item % 5 == 0
+		newarray[y] = "buzz"
 	end
 	end
 	return newarray

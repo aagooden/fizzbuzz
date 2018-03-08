@@ -52,10 +52,23 @@ class Tdd_fizzbuzz_test < Minitest::Test
 		assert_equal("fizz",array[2])
 	end
 
-	def test_divisible_3_return_fizzbuzz
+	def test_divisible_3_return_fizz
 		array = fizzbuzz()
 		assert_equal("fizz",array[98])
 	end
+
+
+	def test_divisible_5_return_buzz
+		array = fizzbuzz()
+		assert_equal("buzz",array[4])
+	end
+
+
+	def test_divisible_5_return_buzz
+		array = fizzbuzz()
+		assert_equal("buzz",array[9])
+	end
+
 
 
 
