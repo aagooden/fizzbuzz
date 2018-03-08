@@ -38,14 +38,26 @@ class Tdd_fizzbuzz_test < Minitest::Test
 	end
 
 	def test_divisible_15_return_fizzbuzz
-		array = divisible_by_15()
+		array = fizzbuzz()
 		assert_equal("fizzbuzz",array[14])
 	end
 
 	def test_30_replaced_by_fizzbuzz
-		array = divisible_by_15()
+		array = fizzbuzz()
 		assert_equal("fizzbuzz",array[29])
 	end
+
+	def test_divisible_3_return_fizz
+		array = fizzbuzz()
+		assert_equal("fizz",array[2])
+	end
+
+	def test_divisible_3_return_fizzbuzz
+		array = fizzbuzz()
+		assert_equal("fizz",array[98])
+	end
+
+
 
 
 end
